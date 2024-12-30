@@ -29,7 +29,7 @@ export default defineConfig({
 			includeAssets: ["favicon.svg"],
 			registerType: "autoUpdate",
 			manifest: {
-				name: "Astros - Starter Template for Astro with Tailwind CSS",
+				name: "Smartlaby - Inteligentné laboratória v knižniciach",
 				short_name: "Astros",
 				theme_color: "#ffffff",
 				icons: [
