@@ -2,7 +2,6 @@
 import { Image } from "astro:assets";
 import Cobe from "@components/cobe.astro";
 import Link from "@components/ui/link.astro";
-import abstractDottedGlobeIllustration from "assets/abstract-dotted-globe-illustration.png";
 import { t } from "i18next";
 
 const { dynamic = false } = Astro.props;
@@ -40,7 +39,7 @@ const { dynamic = false } = Astro.props;
 					{t("hero.subtitle")}
 				</p>
 				<div class="mt-10 flex items-center justify-center gap-x-2 md:gap-x-6">
-					<Link href="https://github.com/zankhq/astros">{t("hero.main_button_text")}</Link>
+					<Link href="/o-smartlabe">{t("hero.main_button_text")}</Link>
 					{
 						dynamic ? (
 							<Link href="/" style="muted">
